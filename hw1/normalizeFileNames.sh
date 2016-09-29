@@ -3,6 +3,8 @@
 # The purpose of this program was to alter the file names in the log and out folder from 1-13 to 01-13.
 # This will make it easier to go through the analyses in order.
 
+#make sure you run the script from the same directory that the data folder is located in.
+
 #change all of the filenames in the log folder
 cd hw1-snaqTimeTests/log/
 for i in {1..9}

@@ -4,14 +4,14 @@
 # The table has the name of the analysis, the number of hybridizations allowed, and the time
 # the analysis took. The table is saved in summarizeSNaQres.csv.
 
+#make sure you run the script from the same directory that the data folder is located in.
+
 #create headers for columns in table
 echo analysis,h,CPUtime > summarizeSNaQres.csv
 
 cd hw1-snaqTimeTests/log
 for filename in *.log
   do
-    #extract information for table
-
     #extract analysis name
     #would not work if there is another o or l in the filename.
     rootname="$(echo $filename | grep -o '[^\.log]*')"
