@@ -1,6 +1,6 @@
 #stat679work.hw1
 
-This directory will contain the script files for the exercises of homework1 for stat 679. The data for this homework was obtained from the class repository.
+This directory will contain the script files for the exercises of homework1 for stat 679 as well as the data for homework 1. The data for this homework was obtained from the class repository.
 
 The data originally came from (downloaded on 9/15/16):
 ```r
